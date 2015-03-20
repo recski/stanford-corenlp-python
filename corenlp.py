@@ -134,6 +134,7 @@ class StanfordCoreNLP(object):
         """
         jars = ["stanford-corenlp-3.4.1.jar",
                 "stanford-corenlp-3.4.1-models.jar",
+                "ejml-0.23.jar",  # required by RNN model
                 "joda-time.jar",
                 "xom.jar",
                 "jollyday.jar"]
